@@ -313,12 +313,20 @@ export default function WarframeTracker() {
         <select
           value={sortType}
           onChange={(e) => setSortType(e.target.value)}
-          className="border p-2 rounded"
+          className="border p-2 rounded "
         >
-          <option value="default">Default</option>
-          <option value="name">Name</option>
-          <option value="done">Done</option>
-          <option value="notDone">Not Done</option>
+          <option className="text-black" value="default">
+            Default
+          </option>
+          <option className="text-black" value="name">
+            Name
+          </option>
+          <option className="text-black" value="done">
+            Done
+          </option>
+          <option className="text-black" value="notDone">
+            Not Done
+          </option>
         </select>
       </div>
       <div className="mb-4 font-bold">
