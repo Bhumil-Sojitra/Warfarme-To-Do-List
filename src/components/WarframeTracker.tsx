@@ -363,6 +363,7 @@ export default function WarframeTracker() {
               unoptimized
             />
             <div>
+              hi
               <span className="font-bold text-lg">{name}</span>
               <p className="text-sm text-gray-500">{farmLocation}</p>
             </div>
