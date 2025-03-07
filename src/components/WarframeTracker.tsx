@@ -354,6 +354,7 @@ export default function WarframeTracker() {
               className="mr-2 w-5 h-5"
             />
             <Image
+key={name}
               src={image}
               alt={name}
               width={80}
