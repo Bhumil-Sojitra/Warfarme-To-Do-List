@@ -354,12 +354,13 @@ export default function WarframeTracker() {
               className="mr-2 w-5 h-5"
             />
             <Image
-key={name}
+              key={name}
               src={image}
               alt={name}
               width={80}
               height={100}
               className="w-[80px] h-[100px] rounded-lg mr-3 "
+              unoptimized
             />
             <div>
               <span className="font-bold text-lg">{name}</span>
